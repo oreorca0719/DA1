@@ -1,0 +1,20 @@
+# GitHub 저장소 연결 및 Push 가이드
+
+# 1. GitHub에서 저장소를 생성한 후, 아래 명령어들을 순서대로 실행하세요
+# (YOUR_USERNAME을 실제 GitHub 사용자명으로 변경)
+
+echo "🔗 GitHub 저장소 연결 중..."
+
+# remote origin 추가 (HTTPS 방식)
+git remote add origin https://github.com/YOUR_USERNAME/DA1.git
+
+# 또는 SSH 방식 (SSH 키가 설정된 경우)
+# git remote add origin git@github.com:YOUR_USERNAME/DA1.git
+
+# remote 확인
+git remote -v
+
+# 첫 번째 push (upstream 설정과 함께)
+git push -u origin main
+
+echo "✅ 완료!"
