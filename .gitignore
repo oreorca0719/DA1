@@ -1,0 +1,8 @@
+# 대용량 통합 CSV 파일들만 제외 (압축 버전 사용)
+**/challengers_level_above260_*_ALL_SERVERS.csv
+
+# 개별 서버 CSV는 포함 (크기가 작음)
+# *.csv 주석 처리 - 모든 CSV를 제외하지 않음
+
+# 압축 해제 시 임시 생성되는 파일들
+temp_*.csv
